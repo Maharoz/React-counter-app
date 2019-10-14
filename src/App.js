@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import './App.css';
 import Controls from './components/controls';
 import Display from './components/display';
+import Footer from './components/footer';
 
 export default class App extends Component {
   constructor() {
@@ -40,6 +41,7 @@ export default class App extends Component {
         handleIncrement={this.handleIncrement}
         handleDecrement = {this.handleDecrement}
         />
+        <Footer data="Developed with love by Maharoz using ReactJS"/>
     </div>
   );
 }
