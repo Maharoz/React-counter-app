@@ -22,12 +22,24 @@ export default class App extends Component {
   };
 
 
+  handleDecrement = () =>{
+    let count = this.state.count;
+    count = count - 1;
+    this.setState({ count });
+
+  }
+
+
   render() {
   return (
     <div className="App">
         <Display count={this.state.count}
        />
-        <Controls  handleIncrement={this.handleIncrement}/>
+        <Controls  
+        count={this.state.count}
+        handleIncrement={this.handleIncrement}
+        handleDecrement = {this.handleDecrement}
+        />
     </div>
   );
 }

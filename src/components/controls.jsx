@@ -1,7 +1,8 @@
 import React from "react";
 
-const Controls = ({handleIncrement }) => {
+const Controls = ({count,handleIncrement ,handleDecrement}) => {
     return (
+        
       <div>
         <button 
         type="button" 
@@ -10,7 +11,12 @@ const Controls = ({handleIncrement }) => {
         style={{marginRight:20}}>
           Increment
         </button>
-        <button type="button" className="btn btn-warning">Decrement</button>
+        <button 
+        type="button" 
+        className="btn btn-warning"
+        disabled={count===0?true:false}
+        onClick={() => handleDecrement()}
+        >Decrement</button>
         
       </div>
     );
