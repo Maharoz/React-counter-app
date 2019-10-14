@@ -1,20 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Controls extends Component {
-  render() {
+const Controls = ({handleIncrement }) => {
     return (
       <div>
         <button 
         type="button" 
         className="btn btn-primary"
+        onClick={() => handleIncrement()}
         style={{marginRight:20}}>
-          Primary
+          Increment
         </button>
-        <button type="button" className="btn btn-warning">Warning</button>
+        <button type="button" className="btn btn-warning">Decrement</button>
         
       </div>
     );
   }
-}
+
 
 export default Controls;
