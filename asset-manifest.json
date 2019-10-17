@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-counter-app/static/css/main.ea0bbd06.chunk.css",
+    "main.js": "/React-counter-app/static/js/main.6428552b.chunk.js",
+    "main.js.map": "/React-counter-app/static/js/main.6428552b.chunk.js.map",
+    "runtime-main.js": "/React-counter-app/static/js/runtime-main.a2ce05c3.js",
+    "runtime-main.js.map": "/React-counter-app/static/js/runtime-main.a2ce05c3.js.map",
+    "static/css/2.f65acde2.chunk.css": "/React-counter-app/static/css/2.f65acde2.chunk.css",
+    "static/js/2.9f84ec8c.chunk.js": "/React-counter-app/static/js/2.9f84ec8c.chunk.js",
+    "static/js/2.9f84ec8c.chunk.js.map": "/React-counter-app/static/js/2.9f84ec8c.chunk.js.map",
+    "index.html": "/React-counter-app/index.html",
+    "precache-manifest.000d73169d43b7382b242c8fec3f7a92.js": "/React-counter-app/precache-manifest.000d73169d43b7382b242c8fec3f7a92.js",
+    "service-worker.js": "/React-counter-app/service-worker.js",
+    "static/css/2.f65acde2.chunk.css.map": "/React-counter-app/static/css/2.f65acde2.chunk.css.map",
+    "static/css/main.ea0bbd06.chunk.css.map": "/React-counter-app/static/css/main.ea0bbd06.chunk.css.map",
+    "static/media/logo.svg": "/React-counter-app/static/media/logo.25bf045c.svg"
+  }
+}
