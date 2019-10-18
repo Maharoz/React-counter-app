@@ -2,17 +2,15 @@
 import logo from './logo.svg';
 import React, { Component } from "react";
 import './App.css';
-import Controls from './components/controls';
-import Display from './components/display';
-import Footer from './components/footer';
+import Controls from './components/CounterControls/controls';
+import Display from './components/CounterDisplay/display';
+import Footer from './components/CounterFooter/footer';
 
 export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
+    state = {
       count: 0
     };
-  }
+
 
 
   handleIncrement = () => {
